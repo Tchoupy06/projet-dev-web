@@ -1,0 +1,115 @@
+.score-board {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.score-display h2 {
+  margin: 0 0 5px 0;
+  color: #d4af37;
+  font-size: 1.8em;
+}
+
+.score-display p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.low-cards {
+  color: #ff6b35;
+  margin-left: 5px;
+}
+
+.save-score-btn {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 15px 0;
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.save-score-btn:hover {
+  background-color: #b8941f;
+}
+
+.home-btn {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #5a6268;
+}
+
+.new-game-btn {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.new-game-btn:hover {
+  background-color: #a98d8d;
+}
+
+.continue-buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.continue-btn,
+.reset-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.continue-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.continue-btn:hover {
+  background-color: #218838;
+}
+
+.reset-btn {
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+}
+
+.reset-btn:hover {
+  background-color: #a98d8d;
+}

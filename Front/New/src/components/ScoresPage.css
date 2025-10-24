@@ -1,0 +1,172 @@
+.scores-page {
+  min-height: 100vh;
+  background-image: url("/fond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.scores-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.scores-container h1 {
+  text-align: center;
+  color: #d4af37;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.scores-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.back-button,
+.refresh-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.back-button {
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+}
+
+.back-button:hover {
+  background-color: #a98d8d;
+}
+
+.refresh-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.refresh-button:hover {
+  background-color: #218838;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 50px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.error-note {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.no-scores {
+  text-align: center;
+  padding: 50px;
+  color: #ccc;
+}
+
+.no-scores p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.scores-table-container {
+  overflow-x: auto;
+}
+
+.scores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.scores-table th,
+.scores-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+.scores-table th {
+  background-color: rgba(212, 175, 55, 0.2);
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.scores-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.rank {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.rank-1 {
+  background-color: rgba(255, 215, 0, 0.1);
+}
+
+.rank-2 {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+.rank-3 {
+  background-color: rgba(205, 127, 50, 0.1);
+}
+
+.player-name {
+  font-weight: bold;
+  color: #fff;
+}
+
+.score-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+@media (max-width: 600px) {
+  .scores-container {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .scores-container h1 {
+    font-size: 2em;
+  }
+
+  .scores-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .scores-table th,
+  .scores-table td {
+    padding: 10px 5px;
+    font-size: 0.9em;
+  }
+}

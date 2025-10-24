@@ -1,0 +1,18 @@
+.carte {
+  display: inline-block;
+  width: 60px;
+  height: 80px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: white;
+  margin: 5px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.carte-cachee {
+  background-color: #003d82;
+  color: white;
+}

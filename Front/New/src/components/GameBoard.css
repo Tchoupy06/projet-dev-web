@@ -1,0 +1,21 @@
+.game {
+  display: block;
+  padding: 20px;
+}
+
+.new-game-button {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.new-game-button:hover {
+  background-color: #a98d8d;
+}

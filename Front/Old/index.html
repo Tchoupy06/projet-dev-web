@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Vanilla Starter</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="start">
+        <h1>Black Jack !</h1>
+        <p>
+          Essayez de battre le croupier en obtenant une main aussi proche que
+          possible de 21
+        </p>
+        <button id="StartButton" onclick="startgame()">
+          Démarrer une nouvelle partie
+        </button>
+      </div>
+      <div class="game">
+        <div class="message-box" id="messageBox"></div>
+        <div class="croupier"></div>
+        <div class="joueur">
+          <div class="button-container">
+            <button onclick="conserver()">Conserver ses cartes</button>
+            <button onclick="uneDePlus()">Une de plus</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/src/cartes.js"></script>
+    <script src="/src/main.js"></script>
+  </body>
+</html>

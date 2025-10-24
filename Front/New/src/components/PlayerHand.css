@@ -1,0 +1,116 @@
+.joueur {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.joueur h3 {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.joueur p {
+  color: white;
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+.cartes-container {
+  margin: 15px 0;
+}
+
+.all-buttons-container {
+  margin-top: 20px;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.game-btn {
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.game-btn:hover {
+  background-color: #a98d8d;
+}
+
+.game-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #888;
+}
+
+.control-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.control-btn {
+  padding: 10px 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  min-width: 120px;
+}
+
+.control-btn.home-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.control-btn.home-btn:hover {
+  background-color: #5a6268;
+}
+
+.control-btn.save-btn {
+  background-color: #d4af37;
+  color: white;
+}
+
+.control-btn.save-btn:hover {
+  background-color: #b8941f;
+}
+
+.control-btn.new-game-btn {
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.control-btn.new-game-btn:hover {
+  background-color: #a98d8d;
+}
+
+.control-btn.continue-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.control-btn.continue-btn:hover {
+  background-color: #218838;
+}
+
+.control-btn.reset-btn {
+  background-color: #e1d1d1;
+  color: rgb(255, 0, 0);
+}
+
+.control-btn.reset-btn:hover {
+  background-color: #a98d8d;
+}
